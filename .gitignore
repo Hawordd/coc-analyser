@@ -6,6 +6,10 @@ venv
 /.pnp
 .pnp.js
 
+# training
+backend/training/Clash*
+backend/training/runs
+
 # testing
 /coverage
 
