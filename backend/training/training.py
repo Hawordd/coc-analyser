@@ -1,6 +1,9 @@
 from ultralytics import YOLO
 import os
 import glob
+import torch
+
+print(torch.cuda.is_available())
 
 train_dirs = glob.glob("runs/detect/train*")
 if not train_dirs:
